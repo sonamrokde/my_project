@@ -1,5 +1,6 @@
 public class TheMotivator {
 	public void feedbackForTheScore(int score) {
+		private ArrayList<String> events = new ArrayList<String>();
 		if (score == 100)
 			System.out.println("You're genius. Good job!!”);
 		else if (score > 90)
@@ -12,8 +13,7 @@ public class TheMotivator {
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
 		tm.feedback(60);
+for (String event : events)			System.out.println(event);
 	}
-	public void upcomingEvents() {		System.out.println("Upcoming Events");		for (String event : events)
-			System.out.println(event header);			System.out.println(event);	}
 }
 
