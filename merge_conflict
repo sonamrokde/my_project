@@ -2,7 +2,9 @@ public class TheMotivator {
 	public void feedbackForTheScore(int score) {
 		private ArrayList<String> events = new ArrayList<String>();
 		if (score == 100)
-			System.out.println("You're genius. Good job!! I am proud of you”);
+
+			System.out.println("You're genius. Excellent job!!”);
+
 		else if (score > 90)
 			System.out.println("That's great");
 		else if (score > 60)
