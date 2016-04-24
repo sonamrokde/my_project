@@ -13,7 +13,7 @@ public class TheMotivator {
 		TheMotivator tm = new TheMotivator();
 		tm.feedback(60);
 	}
-	public void upcomingEvents() {		System.out.println("Upcoming Events");		for (String event : events)
+	public void upcomingEvents() {		System.out.println("Upcoming Events in the house”);		for (String event : events)
 			System.out.println(event header);			System.out.println(event);	}
 }
 
